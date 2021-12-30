@@ -6,7 +6,7 @@ This is an overview of our proposed heterogeneous remote sensing images "Sar2Opt
 
 Sar2Opt dataset can be used as a benchmark in __change detection__ and __image transaltion__ on remote sensing images.
 
-![Examples](https://github.com/MarsZhaoYT/Sar2Opt-Heterogeneous-Dataset/blob/main/imgs/Honeyview_sar2opt.png)  
+![Examples](imgs/Honeyview_sar2opt.png)  
 
 
 ## Description of dataset
@@ -31,7 +31,7 @@ Baselines used here are:
 
 We are grateful to the authors who have shared their codes kindly.
 
-![results](https://github.com/MarsZhaoYT/Sar2Opt-Heterogeneous-Dataset/blob/main/imgs/Honeyview_translated_results.png)
+![results](imgs/Honeyview_translated_results.png)
 
 ## Citation
 __If you find this dataset valuable in your projects, please cite our paper below:__
