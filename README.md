@@ -29,7 +29,7 @@ Baselines used here are:
 - [NICE-GAN](https://github.com/alpc91/NICE-GAN-pytorch)
 - [CUT](https://github.com/taesungp/contrastive-unpaired-translation)  
 
-We are grateful to the authors who have open sourced their codes kindly.
+We are grateful to the authors who have shared their codes kindly.
 
 ![results](https://github.com/MarsZhaoYT/Sar2Opt-Heterogeneous-Dataset/blob/main/imgs/Honeyview_translated_results.png)
 
