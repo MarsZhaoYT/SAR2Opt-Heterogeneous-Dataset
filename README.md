@@ -19,7 +19,7 @@ You can get the dataset from:
 
 
 ## Image-to-image translation results on __Sar2Opt dataset__
-Here are some translated results on our Sar2Opt dataset with well-known GAN-based methods, which have been included with our GRSL paper under reviewing.
+Here are some translated results on our Sar2Opt dataset with well-known GAN-based methods, which have been included in our GRSL paper under reviewing.
 
 Baselines used here are:
 - [Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
