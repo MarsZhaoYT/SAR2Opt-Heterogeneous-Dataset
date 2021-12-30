@@ -15,7 +15,8 @@ We manually selected ground points on each pair of SAR-optical images to perform
 ## Dataset
 You can get the dataset from:  
 - [Google Drive](https://drive.google.com/file/d/1XB9pWq-tVdxQsbVALxbYIF0Em90J4kkR/view?usp=sharing)  
-- [BaiduDisk](链接：https://pan.baidu.com/s/1xQ1nc2aPFdJ99SI2upl5Tg) (hy8d)
+- [BaiduDisk](链接：https://pan.baidu.com/s/1xQ1nc2aPFdJ99SI2upl5Tg)  
+code for BaiduDisk: hy8d
 
 
 ## Image-to-image translation results on __Sar2Opt dataset__
