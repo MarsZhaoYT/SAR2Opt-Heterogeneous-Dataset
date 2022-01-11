@@ -1,8 +1,8 @@
-# Sar2Opt-Heterogeneous-Dataset
+# SAR2Opt-Heterogeneous-Dataset
 
 ![Author](https://img.shields.io/badge/Author-MarsZYT-orange.svg)
 
-This is an overview of our proposed heterogeneous remote sensing images "Sar2Opt" dataset.  
+This is an overview of our proposed heterogeneous remote sensing images "SAR2Opt" dataset.  
 
 Sar2Opt dataset can be used as a benchmark in __change detection__ and __image transaltion__ on remote sensing images.
 
@@ -18,8 +18,8 @@ You can get the dataset from:
 - [BaiduDisk](https://pan.baidu.com/s/1xQ1nc2aPFdJ99SI2upl5Tg) (hy8d)
 
 
-## Image-to-image translation results on __Sar2Opt dataset__
-Here are some translated results on our Sar2Opt dataset with well-known GAN-based methods, which have been included in our GRSL paper under reviewing.
+## Image-to-image translation results on __SAR2Opt dataset__
+Here are some translated results on our SAR2Opt dataset with well-known GAN-based methods, which have been included in our GRSL paper under reviewing.
 
 Baselines we referenced here are:
 - [Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
