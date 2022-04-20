@@ -62,7 +62,11 @@ python train.py --config configs/sar2opt_folder.yaml
 ```
 - test MUNIT:
 ```
-python test.py --config configs/sar2opt_folder.yaml --input_folder datasets/sar2opt/testA/ --output_folder results/sar2opt/images/ --checkpoint outputs/sar2opt_folder/checkpoint/YOUR_MODEL.pt --a2b 1 
+python test.py --config configs/sar2opt_folder.yaml \
+               --input_folder datasets/sar2opt/testA/ \
+               --output_folder results/sar2opt/images/ \
+               --checkpoint outputs/sar2opt_folder/checkpoint/YOUR_MODEL.pt \
+               --a2b 1 
 ```
 
 ### **NICE-GAN**
