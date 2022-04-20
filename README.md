@@ -26,26 +26,74 @@ Here are some translated results on our SAR2Opt dataset with well-known GAN-base
 
 ## Usage of codes
 ### **Pix2Pix**  
-train: 
+- train Pix2Pix: 
 ```
 python train.py --dataroot ./datasets/combined_sar2opt --name sar2opt_pix2pix --model pix2pix --direction AtoB
 ```  
-test:
+- test Pix2Pix:
 ```
 python test.py --dataroot ./datasets/combined_sar2opt --name sar2opt_pix2pix --model pix2pix --direction AtoB
 ```
 
 ### **BicycleGAN**
+- train BicycleGAN:
+```
 
-- **CycleGAN**
+```
+- test BicycleGAN:
+```
 
-- **MUNIT**
+```
 
-- **NICE-GAN**
+### **CycleGAN**
+- train BicycleGAN:
+```
 
-- **CUT**
+```
+- test BicycleGAN:
+```
 
-- **Attn-CycleGAN**
+```
+
+### **MUNIT**
+- train BicycleGAN:
+```
+
+```
+- test BicycleGAN:
+```
+
+```
+
+### **NICE-GAN**
+- train BicycleGAN:
+```
+
+```
+- test BicycleGAN:
+```
+
+```
+
+### **CUT**
+- train BicycleGAN:
+```
+
+```
+- test BicycleGAN:
+```
+
+```
+
+### **Attn-CycleGAN**
+- train BicycleGAN:
+```
+
+```
+- test BicycleGAN:
+```
+
+```
 
 
 
