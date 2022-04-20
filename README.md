@@ -25,7 +25,8 @@ Here are some translated results on our SAR2Opt dataset with well-known GAN-base
 ![results](imgs/Honeyview_translated_results.png)
 
 ## Usage of codes
-_We slightly modofied the original codes to make our dataset suitable for the models._
+_We slightly modofied the original codes to make our dataset suitable for the models. And we are grateful to the authors who have shared their codes kindly._
+
 ### **Pix2Pix**  
 - train Pix2Pix: 
 ```
@@ -111,7 +112,7 @@ bash my_scripts/test_asgit_v2.sh
 - [CUT](https://github.com/taesungp/contrastive-unpaired-translation)  
 - [Attn-CycleGAN]()
 
-We are grateful to the authors who have shared their codes kindly.
+
 
 
 ## Citation
