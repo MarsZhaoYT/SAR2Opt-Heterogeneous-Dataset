@@ -25,6 +25,7 @@ Here are some translated results on our SAR2Opt dataset with well-known GAN-base
 ![results](imgs/Honeyview_translated_results.png)
 
 ## Usage of codes
+_We slightly modofied the original codes to make our dataset suitable for the models._
 ### **Pix2Pix**  
 - train Pix2Pix: 
 ```
