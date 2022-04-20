@@ -38,66 +38,66 @@ python test.py --dataroot ./datasets/combined_sar2opt --name sar2opt_pix2pix --m
 ### **BicycleGAN**
 - train BicycleGAN:
 ```
-
+bash ./scripts/train_scripts/train_combined_sar2opt.sh
 ```
 - test BicycleGAN:
 ```
-
+bash ./scripts/test_scripts/test_combined_sar2opt.sh
 ```
 
 ### **CycleGAN**
-- train BicycleGAN:
+- train CycleGAN:
 ```
-
+python test.py --dataroot ./datasets/sar2opt --name sar2opt_cyclegan --model cycle_gan
 ```
-- test BicycleGAN:
+- test CycleGAN:
 ```
-
+python test.py --dataroot ./datasets/sar2opt --name sar2opt_cyclegan --model cycle_gan
 ```
 
 ### **MUNIT**
-- train BicycleGAN:
+- train MUNIT:
 ```
-
+python train.py --config configs/sar2opt_folder.yaml
 ```
-- test BicycleGAN:
+- test MUNIT:
 ```
-
+python test.py --config configs/sar2opt_folder.yaml --input_folder datasets/sar2opt/testA/ --output_folder results/sar2opt/images/ --checkpoint outputs/sar2opt_folder/checkpoint/YOUR_MODEL.pt --a2b 1 
 ```
 
 ### **NICE-GAN**
-- train BicycleGAN:
+- train NICE-GAN:
 ```
-
+python main.py --dataset sar2opt
 ```
-- test BicycleGAN:
+- test NICE-GAN:
 ```
-
+python main.py --dataset sar2opt --phase test
 ```
 
 ### **CUT**
-- train BicycleGAN:
+- train CUT:
+```
+python train.py --dataroot ./datasets/sar2opt --name sar2opt_CUT --CUT_mode CUT
+```
+- test CUT:
+```
+ python test.py --dataroot ./datasets/sar2opt --name sar2opt_CUT --model cut
 ```
 
+### **Attn-CycleGAN (ASGIT)**
+- train BicycleGAN:
+```
+bash my_scripts/train_asgit_v2.sh
 ```
 - test BicycleGAN:
 ```
-
-```
-
-### **Attn-CycleGAN**
-- train BicycleGAN:
-```
-
-```
-- test BicycleGAN:
-```
-
+bash my_scripts/test_asgit_v2.sh
 ```
 
 
-
-Baselines we referenced here are:
+  
+#### Baselines we referenced here are:
 - [Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 - [BicycleGAN](https://github.com/junyanz/BicycleGAN)
 - [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
