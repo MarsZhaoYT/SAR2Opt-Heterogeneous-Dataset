@@ -21,6 +21,27 @@ You can get the dataset from:
 ## Image-to-image translation results on __SAR2Opt dataset__
 Here are some translated results on our SAR2Opt dataset with well-known GAN-based methods, which have been included in our GRSL paper under reviewing.
 
+
+![results](imgs/Honeyview_translated_results.png)
+
+## Usage of codes
+- Pix2Pix
+train: 
+
+
+- BicycleGAN
+
+- CycleGAN
+
+- MUNIT
+
+- NICE-GAN
+
+- CUT
+
+- Attn-CycleGAN
+
+
 Baselines we referenced here are:
 - [Pix2Pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 - [BicycleGAN](https://github.com/junyanz/BicycleGAN)
@@ -28,10 +49,10 @@ Baselines we referenced here are:
 - [MUNIT](https://github.com/NVlabs/MUNIT)
 - [NICE-GAN](https://github.com/alpc91/NICE-GAN-pytorch)
 - [CUT](https://github.com/taesungp/contrastive-unpaired-translation)  
+- [Attn-CycleGAN]()
 
 We are grateful to the authors who have shared their codes kindly.
 
-![results](imgs/Honeyview_translated_results.png)
 
 ## Citation
 __If you find this dataset valuable in your projects, please cite our paper below:__
