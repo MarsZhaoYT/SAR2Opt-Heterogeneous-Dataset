@@ -119,5 +119,11 @@ bash my_scripts/test_asgit_v2.sh
 __If you find this dataset valuable in your projects, please cite our paper below:__
 
 ```
-Coming soon...
+@article{zhao2022comparative,
+  title={A Comparative Analysis of GAN-based Methods for SAR-to-Optical Image Translation},
+  author={Zhao, Yitao and Celik, Turgay and Liu, Nanqing and Li, Heng-Chao},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  year={2022},
+  publisher={IEEE}
+}
 ```
