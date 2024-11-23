@@ -4,7 +4,7 @@
 
 This is an overview of our proposed heterogeneous remote sensing images "SAR2Opt" dataset.  
 
-SAR2Opt dataset can be used as a benchmark in __change detection__ and __image transaltion__ on remote sensing images.
+SAR2Opt dataset can be used as a benchmark in __change detection__ and __image translation__ on remote sensing images.
 
 ![Examples](imgs/Honeyview_sar2opt.png)  
 
